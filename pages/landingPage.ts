@@ -60,7 +60,7 @@ class landingPage{
       }
 
        async gotoLandingPage() {
-    //   await this.page.waitForTimeout(2000)
+      await this.page.waitForTimeout(2000)
       await this.page.locator(this.blackcolor).click();
           await this.page.waitForTimeout(2000)
       await this.page.locator(this.nextbutton).click();
